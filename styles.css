@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5d5d5;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+#barra-busca {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4e6cff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+#mensagem-erro {
+    color: #ff4d4d;
+}
+
+#clima-atual {
+    margin-top: 32px;
+}
+
+#proximas-horas {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+#clima-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cidade {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.proximas-horas-item {
+    flex: 0 0 auto;
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#proximos-dias {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.proximo-dia {
+    background-color: #f0f0f0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.data-previsao {
+    font-weight: bold;
+}
